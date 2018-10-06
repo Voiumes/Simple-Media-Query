@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.redbground, .redbground2{
+    width: 100%;
+    height: 100px;
+    padding-top: 50px; 
+    background-color: red;
+}
+.bluebground, .bluebground2{
+    width: 100%;
+    height: 100px;
+    padding-top: 50px; 
+    background-color:blue;
+}
+.greenbground, .greenbground2{
+    width: 100%;
+    height: 100px;
+    padding-top: 50px; 
+    background-color: green;
+}
+
+
+@media only screen 
+  and (max-width: 667px) 
+ { 
+
+    .redbground2{
+        width: 100%;
+        height: 100px;
+        padding-top: 50px;
+         background-color: blue;
+    }
+    .bluebground2{
+        width: 100%;
+        height: 100px;
+        padding-top: 50px; 
+        background-color:red;
+    }
+    .greenbground2{
+        width: 100%;
+        height: 100px;
+        padding-top: 50px;
+         background-color: purple;
+    }
+
+
+
+}
+
+@media only screen 
+  and (max-width: 997px) 
+ { 
+
+    .redbground{
+        width: 100%;
+        height: 100px;
+        padding-top: 50px;
+         background-color: blue;
+    }
+    .bluebground{
+        width: 100%;
+        height: 100px;
+        padding-top: 50px; 
+        background-color:red;
+    }
+    .greenbground{
+        width: 100%;
+        height: 100px;
+        padding-top: 50px;
+         background-color: purple;
+    }
+
+
+
